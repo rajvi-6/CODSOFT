@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    color: blue;
+    background-color: black;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(98, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: rgb(212, 255, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    justify-content: space-evenly;
+    font-size: 28px;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;  
+}
+.navbar a:hover{
+    color: rgb(212, 255, 0);
+    text-decoration: none;
+}
+.home
+{
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0 ;
+
+}
+.home-content
+{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: aqua;
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+}
+.home-content h3 span {
+    color: red;
+
+}
+.home-content h1{
+     font-size: 56px;
+     font-weight: 700;
+     margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    color: darksalmon;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover {
+   box-shadow: 0 0 2px cyan,
+   0 0 20px cyan;
+}
+.home-img {
+    mix-blend-mode: lighten;
+}
+.about {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+.about-img {
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px; 
+    mix-blend-mode: lighten;
+}
+.about-text h2 {
+    font-size: 60px;
+
+}
+.about-text h2 span {
+    color: red;
+}
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: rgb(0, 141, 206);
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.home-imgHover {
+    mix-blend-mode: darken;
+}
+.experience {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.skills {
+    margin-top: 1rem;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skills h4 {
+    font-size: 20px;
+}
+.skill {
+    line-height: 25px;
+}
